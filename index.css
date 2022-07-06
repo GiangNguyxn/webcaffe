@@ -1,0 +1,6 @@
+h2{
+        font-family: 'Smooch', cursive;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

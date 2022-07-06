@@ -1,0 +1,14 @@
+{
+  "name": "webcafe",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.9"
+  }
+}

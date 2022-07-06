@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div class=" max-w-[1994px] m-auto">
+    <div class="flex justify-between text-1xl mt-8 p-4 ">
+      <span>Chào mừng bạn đến với Lord</span>
+      <div class="text-[gray]">
+        <a href="login.html">Đăng Kí</a>/
+        <a href="">Đăng Nhập</a>
+      </div>
+
+    </div>
+
+    <div class="flex  justify-center  items-center  text-white  ">
+      <ul class="flex space-x-8 text-xl  bg-black rounded-l-full   p-8 pl-[400px]">
+        <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300 "><a
+            href="index.html">Trang
+            chủ</a></li>
+        <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300"><a
+            href="index2.html">Giới
+            thiệu</a></li>
+        <li
+          class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300 relative hover:pr-32 group ">
+          <a href="">Sản
+            phẩm</a>
+          <ul class="bg-white text-[black] space-y-4 p-2 block absolute w-full hidden group-hover:block ">
+            <li class="border-b-2 hover:text-[#e7b45a]"><a href="index3.html">Cà phê Việt</a></li>
+            <li class="border-b-2 hover:text-[#e7b45a]"><a href="index4.html">Cà phê thế giới</a></li>
+   
+          </ul>
+
+
+        </li>
+      </ul>
+      <div class="w-[200px]  bg-black rounded-full ">
+        <img class="overflow-visible p-8 w-full" src="img/img01.png" alt="">
+      </div>
+      <ul class="flex  space-x-8 text-xl  bg-black rounded-r-full p-8 pr-[400px]">
+        <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300"><a href="index5.html">Tin
+            tức</a></li>
+        <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300"><a href="index6.html">Liên
+            hệ</a></li>
+        <div>
+          <span><i class='bx bx-search'></i></span>/
+          <span class="text-[#e7b45a]"><i class='bx bxs-cart-download'></i> </span>
+        </div>
+
+      </ul>
+
+    </div>
+    <div class="max-w-7xl m-auto">
+      <div class="my-8 "><a href="index.html" class="hover:text-[#e7b45a]">Trang chủ </a>>> Cà phê Việt</div>
+
+      <div class="grid grid-cols-2 gap-8">
+        <div class="flex font-serif">
+          <div class="flex-none w-52 relative">
+            <img src="img/img25.jpg" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg"
+              loading="lazy" />
+          </div>
+          <form class="flex-auto p-6">
+            <div class="flex flex-wrap items-baseline">
+              <h1 class="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
+                Cà phê sữa đá
+              </h1>
+              <div class="flex-auto text-lg font-medium text-slate-500">
+                50.000đ
+              </div>
+
+            </div>
+            <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+              <div class="space-x-1 flex text-sm font-medium">
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xs" checked />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XS
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="s" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    S
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="m" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    M
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="l" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    L
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xl" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XL
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="flex space-x-4 mb-5 text-sm font-medium">
+              <div class="flex-auto flex space-x-4 pr-4">
+                <button class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider bg-slate-900 text-white"
+                  type="submit">
+                  Mua ngay
+                </button>
+                <button
+                  class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider border border-slate-200 text-slate-900"
+                  type="button">
+                  Thêm vào giỏ hàng
+                </button>
+              </div>
+              <button
+                class="flex-none flex items-center justify-center w-12 h-12 text-slate-300 border border-slate-200"
+                type="button" aria-label="Like">
+                <svg width="20" height="20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                </svg>
+              </button>
+            </div>
+            <p class="text-sm text-slate-500">
+              Shop sẽ free ship cho đơn hàng giá trị 100.000đ trở lên
+            </p>
+          </form>
+        </div>
+        <!-- END -->
+        <div class="flex font-serif">
+          <div class="flex-none w-52 relative">
+            <img src="img/img24.jpg" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg"
+              loading="lazy" />
+          </div>
+          <form class="flex-auto p-6">
+            <div class="flex flex-wrap items-baseline">
+              <h1 class="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
+                Cà phê đen đá
+              </h1>
+              <div class="flex-auto text-lg font-medium text-slate-500">
+                55.000đ
+              </div>
+
+            </div>
+            <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+              <div class="space-x-1 flex text-sm font-medium">
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xs" checked />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XS
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="s" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    S
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="m" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    M
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="l" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    L
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xl" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XL
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="flex space-x-4 mb-5 text-sm font-medium">
+              <div class="flex-auto flex space-x-4 pr-4">
+                <button class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider bg-slate-900 text-white"
+                  type="submit">
+                  Mua ngay
+                </button>
+                <button
+                  class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider border border-slate-200 text-slate-900"
+                  type="button">
+                  Thêm vào giỏ hàng
+                </button>
+              </div>
+              <button
+                class="flex-none flex items-center justify-center w-12 h-12 text-slate-300 border border-slate-200"
+                type="button" aria-label="Like">
+                <svg width="20" height="20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                </svg>
+              </button>
+            </div>
+            <p class="text-sm text-slate-500">
+              Shop sẽ free ship cho đơn hàng giá trị 100.000đ trở lên
+            </p>
+          </form>
+        </div>
+        <!-- END -->
+        <div class="flex font-serif">
+          <div class="flex-none w-52 relative">
+            <img src="img/img26.jpg" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg"
+              loading="lazy" />
+          </div>
+          <form class="flex-auto p-6">
+            <div class="flex flex-wrap items-baseline">
+              <h1 class="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
+                Cà phê Sữa Đặc
+              </h1>
+              <div class="flex-auto text-lg font-medium text-slate-500">
+                45.000đ
+              </div>
+
+            </div>
+            <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+              <div class="space-x-1 flex text-sm font-medium">
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xs" checked />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XS
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="s" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    S
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="m" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    M
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="l" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    L
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xl" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XL
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="flex space-x-4 mb-5 text-sm font-medium">
+              <div class="flex-auto flex space-x-4 pr-4">
+                <button class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider bg-slate-900 text-white"
+                  type="submit">
+                  Mua ngay
+                </button>
+                <button
+                  class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider border border-slate-200 text-slate-900"
+                  type="button">
+                  Thêm vào giỏ hàng
+                </button>
+              </div>
+              <button
+                class="flex-none flex items-center justify-center w-12 h-12 text-slate-300 border border-slate-200"
+                type="button" aria-label="Like">
+                <svg width="20" height="20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                </svg>
+              </button>
+            </div>
+            <p class="text-sm text-slate-500">
+              Shop sẽ free ship cho đơn hàng giá trị 100.000đ trở lên
+            </p>
+          </form>
+        </div>
+        <!-- END -->
+        <div class="flex font-serif">
+          <div class="flex-none w-52 relative">
+            <img src="img/img27.jpg" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg"
+              loading="lazy" />
+          </div>
+          <form class="flex-auto p-6">
+            <div class="flex flex-wrap items-baseline">
+              <h1 class="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
+                Cà phê phin
+              </h1>
+              <div class="flex-auto text-lg font-medium text-slate-500">
+                55.000đ
+              </div>
+
+            </div>
+            <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+              <div class="space-x-1 flex text-sm font-medium">
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xs" checked />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XS
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="s" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    S
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="m" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    M
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="l" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    L
+                  </div>
+                </label>
+                <label>
+                  <input class="sr-only peer" name="size" type="radio" value="xl" />
+                  <div
+                    class="w-7 h-7 rounded-full flex items-center justify-center text-slate-500 peer-checked:bg-slate-100 peer-checked:text-slate-900">
+                    XL
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="flex space-x-4 mb-5 text-sm font-medium">
+              <div class="flex-auto flex space-x-4 pr-4">
+                <button class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider bg-slate-900 text-white"
+                  type="submit">
+                  Mua ngay
+                </button>
+                <button
+                  class="flex-none w-1/2 h-12 uppercase font-medium tracking-wider border border-slate-200 text-slate-900"
+                  type="button">
+                  Thêm vào giỏ hàng
+                </button>
+              </div>
+              <button
+                class="flex-none flex items-center justify-center w-12 h-12 text-slate-300 border border-slate-200"
+                type="button" aria-label="Like">
+                <svg width="20" height="20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                </svg>
+              </button>
+            </div>
+            <p class="text-sm text-slate-500">
+              Shop sẽ free ship cho đơn hàng giá trị 100.000đ trở lên
+            </p>
+          </form>
+        </div>
+        <!-- END -->
+      </div>
+    </div>
+
+
+
+    <div class="max-w-7xl  m-auto mt-16 flex space-x-16">
+      <div class="flex space-x-4 border-2 p-4">
+        <a href=""><img src="img/img26.png" alt=""></a>
+        <p class="text-[#707070] mt-4">Coffe chất lượng hàng đầu Châu Âu </p>
+      </div>
+      <div class="flex space-x-4 border-2 p-4">
+        <a href=""><img src="img/img27.png" alt=""></a>
+        <p class="text-[#707070] mt-4">Coffe chất lượng hàng đầu Châu Âu </p>
+      </div>
+      <div class="flex space-x-4 border-2 p-4">
+        <a href=""><img src="img/img28.png" alt=""></a>
+        <p class="text-[#707070] mt-4">Coffe chất lượng hàng đầu Châu Âu </p>
+      </div>
+    </div>
+    <!-- END -->
+    <footer style="background-image:url(img/img37.png) ;" class="bg-cover mt-8 pb-4x">
+      <div class="max-w-7xl m-auto grid grid-cols-2 gap-8  py-32">
+        <div class="space-y-6">
+          <h5 class="text-2xl text-white pt-16 ">Chúng tôi là Lord</h5>
+  
+          <div class="text-1xl text-white pt-4"><i class='bx bxs-map'></i>Cao đẳng FPT </div>
+          <div class="text-1xl text-white"><i class='bx bx-phone'></i>097048136</div>
+          <div class="text-1xl text-white"><i class='bx bxs-envelope'></i>nhogiang03tg@gmail.com</div>
+          <div><a href="" class="text-1xl text-white"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="" class="text-1xl text-white"><i class='bx bxl-youtube'></i></a>
+            <a href="" class="text-1xl text-white"><i class='bx bxl-twitter'></i></a></div>
+        
+         
+          
+          
+        </div>
+        <div>
+          <h5 class="text-4xl text-white pt-16  ">Chăm sóc khách hàng</h5>
+          <ul class="text-white space-y-6 text-2xl">
+            <li class="hover:text-[#e7b45a]"><a href="index.html">Trang chủ</a></li>
+            <li class="hover:text-[#e7b45a]"><a href="index2.html">Giới thiệu</a></li>
+            <li class="hover:text-[#e7b45a]"><a href="">Sản phẩm</a></li>
+            <li class="hover:text-[#e7b45a]"><a href="index5.html">Tin tức </a></li>
+            <li class="hover:text-[#e7b45a]"><a href="index6.html">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+  
+    </footer>
+
+  </div>
+</body>
+
+</html>
