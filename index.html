@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Giang Chúa Tể</title>
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
 
 <body>
 
-  <div class=" max-w-[1994px] m-auto px-5 md:px-0 ">
+  <div class=" max-w-[1994px] m-auto px-5 lg:px-0 ">
     <div class="flex justify-between text-1xl mt-8 p-4 ">
       <span>Chào mừng bạn đến với Lord</span>
       <div class="text-[gray]">
@@ -25,15 +25,16 @@
 
     </div>
 
-    <div class="flex  justify-center  items-center  text-white  ">
-      <ul class="md:flex md:space-x-8 text-xl  bg-black rounded-l-full   p-8 pl-[400px] hidden md:block">
+    <div class="flex  justify-center  items-center  text-white   ">
+      
+      <ul id="menu" class="flex md:space-x-8 md:text-xl  bg-black md:rounded-l-full rounded-l-xl p-2  md:p-8 md:pl-[400px] ">
         <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300 "><a href="index.html">Trang
             chủ</a></li>
         <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300"><a href="index2.html">Giới
             thiệu</a></li>
         <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300 relative hover:pr-32 group "><a href="">Sản
             phẩm</a>
-          <ul class="bg-white text-[black] space-y-4 p-2 block absolute w-full hidden group-hover:block ">
+          <ul class="bg-white text-[black] space-y-4 p-2  absolute w-full hidden group-hover:block ">
             <li class="border-b-2 hover:text-[#e7b45a]"><a href="index3.html">Cà phê Việt</a></li>
             <li class="border-b-2 hover:text-[#e7b45a]"><a href="index4.html">Cà phê thế giới</a></li>
        
@@ -43,9 +44,9 @@
           </li>
       </ul>
       <div class="md:w-[200px]  w-[100px] bg-black rounded-full ">
-        <img class="overflow-visible md:p-8 w-full" src="img/img01.png" alt="">
+        <img id="button" class="overflow-visible md:p-8 w-full" src="img/img01.png" alt="">
       </div>
-      <ul class="md:flex  space-x-8 text-xl  bg-black rounded-r-full p-8 pr-[400px] hidden md:block">
+      <ul id="menu" class="flex  md:space-x-8 space-x-4 md:text-xl  bg-black md:rounded-r-full rounded-r-xl p-2 md:p-8 md:pr-[400px] ">
         <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300"><a href="index5.html">Tin
             tức</a></li>
         <li class="hover:text-[#e7b45a] hover:border-b-2  hover:border-[white] ease-in duration-300"><a href="index6.html">Liên
@@ -269,6 +270,7 @@
   </footer>
 
   </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
